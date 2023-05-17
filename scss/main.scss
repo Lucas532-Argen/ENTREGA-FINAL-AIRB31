@@ -1,0 +1,16 @@
+/* Reset de página */
+* {
+    font-family: "Poppins", sans-serif;
+    p {
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+  @import ".section/_navbar";
+  @import ".section/_index";
+  @import ".section/_footer";
+  @import ".section/_redes";
+  @import ".section/_poremail";
+  @import ".section/_subastas";
+  @import ".section/_gallery";
+  @import ".section/_conocenos";
+  @import ".section/_contacto";
