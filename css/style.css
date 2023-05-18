@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Reset de página */
+
 * {
   font-family: "Poppins", sans-serif; }
   * p {
@@ -50,17 +50,16 @@
   transition: ease-in 0.2s; }
 
 .forma-bg {
-  clip-path: polygon(100% 15%, 100% 70%, 0% 85%, 0% 30%);
-  background-image: linear-gradient(to right top, #5c3477, #7a3793, #9c36ae, #c22ec6, #eb12db); }
+  background-image: linear-gradient(to right top, #cd9851, #aa6f21, #8e521e, #765915, #eb7012); }
 
-.gallery img {
+.subag img {
   width: 0;
   flex-grow: 1;
   object-fit: cover;
   opacity: 0.8;
   transition: 0.4s ease; }
 
-.gallery img:hover {
+.subag img:hover {
   cursor: crosshair;
   width: 300px;
   opacity: 1;
@@ -89,7 +88,7 @@
   border: #fafafa 0.2em solid; }
 
 .card-color:hover {
-  border: #d2afd9 0.2em solid;
+  border: #d9d3af 0.2em solid;
   transform: scale(1.025); }
 
 .bg-form {
